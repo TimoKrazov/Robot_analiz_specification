@@ -1,0 +1,3 @@
+CREATE USER robot WITH PASSWORD 'iamrobot';
+GRANT ALL PRIVILEGES ON DATABASE krep_db TO robot;
+GRANT ALL PRIVILEGES ON TABLE remnants_materials TO robot;
